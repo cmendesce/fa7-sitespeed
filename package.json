@@ -19,5 +19,6 @@
   "dependencies": {
     "phantomjs": "^2.1.7",
     "sitespeed.io": "^3.11.7"
-  }
+  },
+   "engine": "node >= 6.0.0"
 }
