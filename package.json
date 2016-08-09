@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/cmendesce/travis-yslow#readme",
   "dependencies": {
-    
+    "phantomjs": "^2.1.7",
+    "sitespeed.io": "^3.11.7"
   }
 }
