@@ -1,6 +1,7 @@
 test:
   pre:
     - mkdir -p $CIRCLE_TEST_REPORTS/junit/
+    - npm -v
+    - node -v
   override:
-    - npm cache clean -f
     - sitespeed.io -u https://www.fa7.edu.br --junit > $CIRCLE_TEST_REPORTS/junit/sitespeedio_result.xml
