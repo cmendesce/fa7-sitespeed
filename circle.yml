@@ -7,4 +7,4 @@ test:
     - npm -v
     - node -v
   override:
-    - sitespeed.io -u http://www.fa7.edu.br --junit > $CIRCLE_TEST_REPORTS/junit/sitespeedio_result.xml
+    - sitespeed.io -u http://www.fa7.edu.br --deep 0 --file urls.txt --junit > $CIRCLE_TEST_REPORTS/junit/sitespeedio_result.xml
